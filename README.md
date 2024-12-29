@@ -14,8 +14,7 @@ The goal is to:
 
 ## Installation
 
-1. Clone this repository:
-
+1. Clone this repository and run 'npm run build' to generate the dist folder:
 
 2. Open Chrome and navigate to `chrome://extensions/`
 
