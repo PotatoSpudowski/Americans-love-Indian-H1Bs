@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Americans love Indians on H1B Visas",
+  "version": "1.0",
+  "description": "A browser extension that enhances your X (formerly Twitter) browsing experience by providing additional features and functionality.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.x.com/*"],
+      "js": ["dist/content.js"]
+    }
+  ]
+}
